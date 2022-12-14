@@ -1,0 +1,75 @@
+.setting-page {
+  .main-setting-avatar {
+    margin-bottom: 10px;
+    .show-avatar-element .show-avatar {
+      width: 100px;
+      height: 100px;
+      span {
+        font-size: 30px;
+      }
+    }
+  }
+  .card-item {
+    margin-bottom: 10px;
+    .card-box {
+      display: grid;
+      grid-template-columns: 6% auto 25%;
+      align-items: center;
+    }
+    .cb-hide-label {
+      .el-checkbox__label {
+        display: none;
+      }
+    }
+
+  }
+  .check-all {
+    margin: 5px 0 0 15px;
+  }
+  .edit-des {
+    color: #c0cce0;
+  }
+}
+
+.list-receipt-page {
+  .card-item {
+    .avatar-name {
+      padding-bottom: 6px;
+      span {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.list-member-page {
+  .member-cashier-avatar {
+    .show-avatar-element .show-avatar {
+      width: 55px;
+      height: 55px;
+      span {
+        font-size: 25px;
+      }
+    }
+  }
+  .member-role-avatar {
+    margin-bottom: 10px;
+    .show-avatar-element .show-avatar {
+      width: 55px;
+      height: 55px;
+      span {
+        font-size: 25px;
+      }
+    }
+  }
+  .remove-btn {
+    position: relative;
+    .el-icon {
+      //color: $btn-primary;
+      position: absolute;
+      top: 0;
+      right: -10px;
+    }
+  }
+}
